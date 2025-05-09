@@ -18,14 +18,14 @@ class AuthUserService{
         })
 
         if(!user){
-            throw new Error("User/password incorret")
+            throw new Error("Usuário ou senha incorreto")
         }
 
         // verificar senha
         const passwordMatch = await compare(password, user.password)
         
         if(!passwordMatch){
-            throw new Error("User/password incorret")
+            throw new Error("Usuário ou senha incorreto")
         }
 
         // gerar token jwt e retornar user
