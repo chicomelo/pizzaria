@@ -1,4 +1,3 @@
-# pizzaria
 # Sistema de Pedidos - Web App
 
 Este projeto é um sistema web para gerenciamento de pedidos em bares, pizzarias e outros estabelecimentos, permitindo o registro e controle de pedidos por mesa.
